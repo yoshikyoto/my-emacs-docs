@@ -1,4 +1,4 @@
 MyEmacsチュートリアル
 ==
 
-:ref:`build`
+* [build.md]

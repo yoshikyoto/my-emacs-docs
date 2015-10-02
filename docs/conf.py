@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# emacs documentation build configuration file, created by
-# sphinx-quickstart on Fri Oct  2 23:11:40 2015.
+# my-emacs documentation build configuration file, created by
+# sphinx-quickstart on Fri Oct  2 23:29:25 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -36,8 +36,8 @@ templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
+# source_suffix = '.rst'
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'emacs'
-copyright = u'2015, yoshikyoto'
-author = u'yoshikyoto'
+project = u'my-emacs'
+copyright = u'2015, yoshiki_utakata'
+author = u'yoshiki_utakata'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -200,7 +200,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'emacsdoc'
+htmlhelp_basename = 'my-emacsdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'emacs.tex', u'emacs Documentation',
-   u'yoshikyoto', 'manual'),
+  (master_doc, 'my-emacs.tex', u'my-emacs Documentation',
+   u'yoshiki\\_utakata', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -252,7 +252,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'emacs', u'emacs Documentation',
+    (master_doc, 'my-emacs', u'my-emacs Documentation',
      [author], 1)
 ]
 
@@ -266,8 +266,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'emacs', u'emacs Documentation',
-   author, 'emacs', 'One line description of project.',
+  (master_doc, 'my-emacs', u'my-emacs Documentation',
+   author, 'my-emacs', 'One line description of project.',
    'Miscellaneous'),
 ]
 

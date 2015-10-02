@@ -1,10 +1,10 @@
-.. emacs documentation master file, created by
-   sphinx-quickstart on Fri Oct  2 23:11:40 2015.
+.. my-emacs documentation master file, created by
+   sphinx-quickstart on Fri Oct  2 23:29:25 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to emacs's documentation!
-=================================
+Welcome to my-emacs's documentation!
+====================================
 
 Contents:
 

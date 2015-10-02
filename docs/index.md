@@ -1,2 +1,2 @@
-My Emacs Documentation!
+MyEmacsチュートリアル
 ==

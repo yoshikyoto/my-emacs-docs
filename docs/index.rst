@@ -1,4 +1,3 @@
 MyEmacsチュートリアル
 ==
 
-* [build.md]

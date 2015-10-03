@@ -1,2 +1,6 @@
 MyEmacsチュートリアル
 ==
+
+.. toctree::
+
+   build

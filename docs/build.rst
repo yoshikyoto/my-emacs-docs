@@ -11,8 +11,8 @@ Emacs23とEmacs24では結構違う部分も多く、Emacs24では動くので�
 
 なお、WindowsでEmacsを使おうとしている場合、ここの情報はあまり参考になりません。((Windows向けのページも用意する予定です))
 
-最初に
-======
+ビルドに必要な環境の整備
+========================
 
 Emacsをビルドするために必要な gcc, make などをインストールします。
 
@@ -30,9 +30,10 @@ ubuntuの場合
 
 ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認してください
 
-```
+.. code-block:: bash
+
 $ sudo apt-get install gcc make ncurses-dev
-```
+
 
 もしこれで、下の方に書いてあるビルドができない場合、裏ワザ的に以下のコマンドを使う方法があります。
 

@@ -32,7 +32,7 @@ ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認して
 
 .. code-block:: bash
 
-$ sudo apt-get install gcc make ncurses-dev
+                $ sudo apt-get install gcc make ncurses-dev
 
 
 もしこれで、下の方に書いてあるビルドができない場合、裏ワザ的に以下のコマンドを使う方法があります。

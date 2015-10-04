@@ -7,7 +7,7 @@ MyEmacsチュートリアル
 Emacsが使いやすくカスタマイズされ、
 そして、さらに使いやすくカスタマイズできるだけの能力を習得できることを考えています。
 
-質問や要望、訂正などはは、
+質問や要望、訂正などは、
 
 - GitHubのIssueやPull Request（右上のリンクから飛べます）
 - twitter @yoshiki_utakata

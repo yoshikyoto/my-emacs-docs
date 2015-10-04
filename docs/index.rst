@@ -19,3 +19,4 @@ Emacsが使いやすくカスタマイズされ、
    build
    start
    customize
+   basic-customize

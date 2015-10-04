@@ -41,3 +41,6 @@ MyEmacsチュートリアル
    customize
    basic-customize
    el-get
+   auto-complete
+   yasnippet
+

@@ -20,9 +20,10 @@ Emacsをビルドするために必要な gcc, make などをインストール�
 Cent OS の場合
 --------------
 
-```
-sudo yum -y install gcc make ncurses-devel
-```
+.. code-block:: shell
+
+   $ sudo yum -y install gcc make ncurses-devel
+
 
 ------------
 ubuntuの場合
@@ -32,14 +33,15 @@ ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認して
 
 .. code-block:: bash
 
-                $ sudo apt-get install gcc make ncurses-dev
+   $ sudo apt-get install gcc make ncurses-dev
 
 
 もしこれで、下の方に書いてあるビルドができない場合、裏ワザ的に以下のコマンドを使う方法があります。
 
-```
-$ sudo apt-get build-dep emacs24
-```
+.. code:: bash
+         
+   $ sudo apt-get build-dep emacs24
+
 
 もっとスマートな解決法を探しておりますので、少々お待ちください。
 

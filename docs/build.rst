@@ -29,7 +29,7 @@ Cent OS の場合
 ubuntuの場合
 ------------
 
-ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認してください
+ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認してください。
 
 .. code:: shell
 

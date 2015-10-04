@@ -40,3 +40,4 @@ MyEmacsチュートリアル
    start
    customize
    basic-customize
+   el-get

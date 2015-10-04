@@ -20,7 +20,7 @@ Emacsをビルドするために必要な gcc, make などをインストール�
 Cent OS の場合
 --------------
 
-.. code-block:: shell
+.. code:: shell
 
    $ sudo yum -y install gcc make ncurses-devel
 
@@ -31,14 +31,14 @@ ubuntuの場合
 
 ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認してください
 
-.. code-block:: bash
+.. code:: shell
 
    $ sudo apt-get install gcc make ncurses-dev
 
 
 もしこれで、下の方に書いてあるビルドができない場合、裏ワザ的に以下のコマンドを使う方法があります。
 
-.. code:: bash
+.. code:: shell
          
    $ sudo apt-get build-dep emacs24
 
@@ -49,7 +49,7 @@ ubuntuの場合、gcc, make, ncurses-dev が入っていることを確認して
 Macの場合
 ---------
 
-Macはdeveloper toolsを入れておけば問題ないような気がします。
+Macはdeveloper toolsを入れておけば問題ないと思います。
 
 
 ビルドしたいバージョンのemacsを探す
@@ -66,16 +66,16 @@ magitという、Emacs上で動くGitのクライアントが、Emacs 24.4 以�
 emacs 24.5 のURLは http://ftp.jaist.ac.jp/pub/GNU/emacs/emacs-24.5.tar.gz なので、
 これをダウンロードして解凍してビルドします。
 
-```
-$ wget http://ftp.jaist.ac.jp/pub/GNU/emacs/emacs-24.5.tar.gz
-$ tar xvf emacs-24.5.tar.gz
-$ cd emacs-24.5
-$ ./configure
-$ sudo make
-$ sudo make install
-```
+.. code:: shell
+                
+   $ wget http://ftp.jaist.ac.jp/pub/GNU/emacs/emacs-24.5.tar.gz
+   $ tar xvf emacs-24.5.tar.gz
+   $ cd emacs-24.5
+   $ ./configure
+   $ sudo make
+   $ sudo make install
 
-`./configure` あたりで失敗する場合は、ビルドに依存するパッケージが正しくない可能性があります。
+``./configure`` あたりで失敗する場合は、ビルドに依存するパッケージが正しくない可能性があります。
 何か問題がありましたら、このページのGitHubのIssueなどで報告してください。
 
 
@@ -86,27 +86,31 @@ path を通す
 
 試しにEmacsのバージョンを調べてみてください。
 
-```
-$ emacs --version
-GNU Emacs 24.5.1
-...
-```
+.. code:: shell
+
+   $ emacs --version
+   GNU Emacs 24.5.1
+   ...
+
 
 自分のダウンロードしたEmacsのバージョンと同じ場合は問題ありません。
 違う場合は以下の用にpathを変更してやります。
 
-```
-$ emacs --version
-GNU Emacs 23.1
-...
+.. code:: shell
 
-$ which emacs
-/usr/bin/emacs
-sudo rm /usr/bin/emacs
+   $ emacs --version
+   GNU Emacs 23.1
+   ...
+   
+   $ which emacs
+   /usr/bin/emacs
+   sudo rm /usr/bin/emacs
+   
+   $ sudo ln -s /usr/local/bin/emacs-24.5 /usr/bin/emacs
+   
+   $ emacs --version
+   GNU Emacs 24.5.1
+   ...
+   ```
 
-$ sudo ln -s /usr/local/bin/emacs-24.5 /usr/bin/emacs
 
-$ emacs --version
-GNU Emacs 24.5.1
-...
-```

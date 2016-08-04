@@ -43,4 +43,5 @@ MyEmacsチュートリアル
    el-get
    auto-complete
    yasnippet
+   neotree
 
